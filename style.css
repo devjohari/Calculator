@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    transition: 0.3s;
+}
+#textfield{
+    text-align: end;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    border-width: 0.5px;
+    background-color: rgb(202, 202, 202);
+}
+.one{
+    margin-bottom: 0.5rem;
+}
+.two{
+    display: flex;
+    justify-content: center;
+}
+button{
+    flex: 1;
+    padding: 3rem 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1rem;
+    border-width: 0.5px;
+    transition: 0.3s;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: rgb(141, 141, 141);
+}
+
+
+@media screen and (max-width:1000px){
+    button{
+        padding:2rem 0;
+    }
+}
+@media screen and (max-width:728px){
+    button{
+        padding:1rem 0;
+    }
+}
+@media screen and (max-width:480px){
+    .cal{
+        height: 100%;
+        width: 100%;
+    }
+    button{
+        padding:2.5rem 0;
+    }
+}
