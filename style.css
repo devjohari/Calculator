@@ -26,10 +26,9 @@ body{
     text-align: end;
     width: 100%;
     font-size: 2rem;
-    padding: 1.5rem 0;
+    padding: 1.5rem 0.8rem;
     border-radius: 1rem;
     border-width: 0.5px;
-    margin-right:10%;
     background-color: rgb(202, 202, 202);
 }
 .one{
