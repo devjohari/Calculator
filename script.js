@@ -11,3 +11,8 @@ buttons.forEach((i) => {
       }
    };
 });
+document.addEventListener("keypress", (e) => {
+   if (e.key == "Enter") {
+      buttons[buttons.length - 1].click();
+   }
+});
